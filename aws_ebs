@@ -10,7 +10,7 @@ spec:
     - mountPath: /test-ebs
       name: test-volume
   volumes:
-  - name: test-volume
+  - name: test-volume #2
     # This AWS EBS volume must already exist.
     awsElasticBlockStore:
       volumeID: <volume-id>
