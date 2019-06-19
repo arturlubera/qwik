@@ -1,0 +1,7 @@
+---
+#This is test playbook
+- name: test
+  hosts: itdt700lx
+  tasks: 
+  - name: first
+    yum: name=vsftpd state=latest
